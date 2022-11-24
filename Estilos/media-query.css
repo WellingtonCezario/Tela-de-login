@@ -10,6 +10,10 @@
 @media screen and (min-width:768px) and (max-width:992px) {
     section#login { height: 280px;
         width: 90vw;
+        box-shadow: 
+        inset  12px -12px 42px #0c0c0c,
+      inset          -12px 12px 42px #555555;
+
     }
     div#imagem{
 float: left;
@@ -17,7 +21,7 @@ width: 35%;
 height: 100vh;
     }
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #131313, #623d7a);
     }
     div#formulario {
 float: right;
@@ -33,7 +37,10 @@ Telas Maiores: Desktops, TV's |
 */
 
 @media screen and (min-width:992px) {
-    section#login {
+    section#login { box-shadow: 
+      inset  12px -12px 42px #0c0c0c,
+    inset          -12px 12px 42px #555555;
+
 width: 950px;
 height: 350px;
     }
@@ -43,7 +50,7 @@ height: 350px;
         height: 100%;
     }
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top,  #131313, #623d7a);
     }
         div#formulario {
         float: left;
@@ -51,9 +58,9 @@ height: 350px;
     height: 100%;    
     }
     div#formulario > h1 {
-font-size: 2em;
+font-size: 1.8em;
     }
     div#formulario >p {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 }
